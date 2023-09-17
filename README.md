@@ -3,13 +3,13 @@
 
 
 ## Table of Contents
-- [Introduction](##introduction)
+- [Introduction](#introduction)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Included Scripts](#included-scripts)
 - [Usage](#usage)
-- [Report Generation](###Report-Generation)
+- [Report Generation](#report-generation)
 
 
 ## Introduction
@@ -19,7 +19,7 @@ These tests ensure the booking system's functionality, reliability, and security
 
 ## Getting Started
 ### Prerequisites
-Before using these scripts, make sure to install Java and Postman:
+Before using these scripts, make sure to install Java and Postman.
 - [JAVA](https://www.oracle.com/java/technologies/downloads/)
 - [Postman](https://www.postman.com/downloads/)
 ### Installation
@@ -50,8 +50,8 @@ Go to this [link](https://documenter.getpostman.com/view/29102085/2s9YC7SB9H) fo
 - Now open the command prompt on that folder
 - Run this command to generate a test report in HTML <br>
 ```newman run CollectionName.json -e EnvironmentName.json -r cli,htmlextra``` <br>
-
-for e.g., ```newman run Restful_Hotel_Booking_API.json -e Hotel_Booking_environment.json -r cli,htmlextra```
+for e.g., <br>
+ ```newman run Restful_Hotel_Booking_API_collection.json -e Hotel_Booking_environment.json -r cli,htmlextra```
 
 
 
