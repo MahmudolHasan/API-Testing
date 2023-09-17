@@ -1,0 +1,27 @@
+{
+	"id": "d29057e0-58a6-4e33-95a5-1aea1e210d60",
+	"name": "Hotel_Booking_API_Environment",
+	"values": [
+		{
+			"key": "BaseUrl",
+			"value": "https://restful-booker.herokuapp.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "id",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "tokenid",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2023-09-17T00:31:01.165Z",
+	"_postman_exported_using": "Postman/10.18.2"
+}
