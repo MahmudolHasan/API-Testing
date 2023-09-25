@@ -1,0 +1,1 @@
+newman run Mahmudol_Hasan_Tushar.postman_collection.json -e Mahmudol_Hasan_Tushar.postman_environment.json -r cli,htmlextra

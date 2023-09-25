@@ -43,7 +43,7 @@ Use test scripts from the subfolder dynamic_variable_test_scripts and pre-reques
 Script documentation contains full usage instructions and examples for every request. Each script is documented to help one understand its purpose and how to use it effectively.
 
 ### Documentation 
-Go to this [link](https://documenter.getpostman.com/view/29102085/2s9YC7SB9H) for complete documentation.
+For complete API documentation and examples, please refer to [API Documentation.](https://documenter.getpostman.com/view/29102085/2s9YC7SB9H)
 
 ### Report Generation 
 - Save the *postman collection* and *postman environment* in the same folder 
@@ -52,6 +52,8 @@ Go to this [link](https://documenter.getpostman.com/view/29102085/2s9YC7SB9H) fo
 ```newman run CollectionName.json -e EnvironmentName.json -r cli,htmlextra``` <br>
 for e.g., <br>
  ```newman run Restful_Hotel_Booking_API_collection.json -e Hotel_Booking_environment.json -r cli,htmlextra```
+
+ <img src = "Report/report.PNG"></img>
 
 
 
