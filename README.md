@@ -1,5 +1,5 @@
 # API-Testing
-🚀 Restful Booker API Testing Collection
+Restful Booker API Testing Collection
 
 
 ## Table of Contents
